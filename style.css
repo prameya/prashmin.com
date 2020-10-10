@@ -1,0 +1,33 @@
+body { font: 15px sans-serif; margin: 0; background: white; color: black; }
+p { margin: 0; }
+div { position: absolute; }
+button { margin-left: 1em; }
+select { vertical-align: middle; }
+a { text-decoration: none; color: blue; }
+.closeBet { color: white; background: blue; padding: 0px 5px; }
+.field { width: 113px; height: 51px; border: 1px solid silver; border-width: 10px 1px 1px 10px; padding: 2px; }
+.owned { cursor: pointer; }
+.owner0 { border-left-color: navy; }
+.owner1 { border-left-color: orange; }
+.owner2 { border-left-color: lime; }
+.owner3 { border-left-color: fuchsia; }
+.owner4 { border-left-color: cyan; }
+.owner5 { border-left-color: yellow; }
+.player { transition: top 1s, left 1s; }
+.player0 { color: white; background: navy; }
+.player1 { background: orange; }
+.player2 { background: lime; }
+.player3 { background: fuchsia; }
+.player4 { background: cyan; }
+.player5 { background: yellow; }
+.price { width: 60px; }
+.upgrades { text-align: right; }
+.money { text-align: right; }
+.buttons { top: 250px; width: 1408px; text-align: center; }
+.restart { position: absolute; top: 100px; left: 1135px; }
+#board { position: static; margin: 0; }
+#score { position: absolute; top: 100px; left: 150px; }
+#score td { padding: 0 10px; height: 22px; }
+#dice { top: 300px; width: 208px; padding: 0 600px; display: flex; text-align: center; font-size: 48px; }
+#dice span { display: block; flex: auto; }
+#message { top: 370px; margin-left: 138px; width: 1132px; height: 280px; overflow-y: auto; text-align: center; }

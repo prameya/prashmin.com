@@ -1,0 +1,8 @@
+body { overflow: hidden; margin: 0; }
+.kart { position: absolute; }
+
+#kart0-currentLap { position: absolute; left: 950px; top: 20px; }
+#kart0-previousLaps { position: absolute; left: 950px; top: 50px; }
+
+#kart1-currentLap { position: absolute; left: 1050px; top: 20px; }
+#kart1-previousLaps { position: absolute; left: 1050px; top: 50px; }
