@@ -222,7 +222,7 @@ var playing = -1;
 	var board = document.body.appendChild(createDom('div', {id: 'board'}));
 
 	var scoreTable = board.appendChild(createDom('table', {id: 'score'}));
-	var defaultNames = ['Jakub', 'Kryštof', 'Prokop'];
+	var defaultNames = ['Prashmin', 'Aahana', 'Prameya', 'Kelsey'];
 	for (var i = 0; i < maxPlayers; i++) {
 		scoreTable.appendChild(createScoreRow(i, defaultNames[i]));
 	}
